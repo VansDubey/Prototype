@@ -12,12 +12,7 @@ body {
 
 
   /* General styling */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-}
+
 
 a {
   color: #007bff;
@@ -50,12 +45,7 @@ p {
 
 
   
-  header {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 0;
-  }
-
+  
   
   
   
@@ -228,58 +218,6 @@ p {
   }
   
 
-
-  .about-us {
-    background-color: #3f9c3a;
-    padding: 50px 0;
-    color: #fff;
-  }
-  
-  .about-us .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .about-us .container h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  
-  .about-us .feature {
-    margin-bottom: 30px;
-    width: 33.333%;
-    padding: 0 15px;
-  }
-  
-  .about-us .feature h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .about-us .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  .about-us .button:first-child {
-    margin-right: 20px;
-  }
-  
-  .about-us .button {
-    background-color: #2e6a24;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .about-us .button:hover {
-    background-color: #1a4614;
-  }
   
   @media (max-width: 767px) {
     .about-us .feature {
@@ -293,17 +231,6 @@ p {
     padding: 0;
   }
   
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem;
-  }
-  
-  .navbar a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-  }
   
   .intro {
     display: flex;
@@ -364,7 +291,7 @@ p {
   
 
 .navbar{
-    height:100px;
+    height:140px;
     background-color:#0f1111;
     color:white;
     display:flex;
@@ -483,6 +410,13 @@ input{
 
 
 }    
+ .allbox{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+
+ }
 .all{
     display:flex;
 }
@@ -494,4 +428,46 @@ input{
     border:solid white 0.5px;
 }
 
+
+.rectangle-box1 {
+  width: 250px;
+  height: 50px;
+  
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.rectangle-box2 {
+  margin-top:40px;
+  width: 250px;
+  height: 50px;
+
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rectangle-box h2 {
+  margin-bottom: 10px;
+}
+
+.rectangle-box p {
+  text-align: center;
+}
+
+.headingimage{
+  background-image: url(finaldesign.png);
+  background-repeat: no repeat;
+  background-size: cover;
+  height:150px;
+  width:100%;
+}
 
